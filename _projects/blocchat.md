@@ -5,7 +5,7 @@ date: 2015-09-03
 feature-img: "img/sample_feature_img_3.png"
 thumbnail-path: "img/blocchat_thumbnail.png"
 short-description: A persistent chat application made with React/Flux, inspired by Slack.
-tags: [Git, HTML, CSS, gulp, npm, firebase, JavaScript, React, Flux]
+tags: [Git, HTML, CSS, gulp, npm, Firebase, JavaScript, React, Flux]
 
 ---
 ## Summary
