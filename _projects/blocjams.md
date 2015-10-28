@@ -4,7 +4,7 @@ title: BlocJams
 date: 2015-08-11
 feature-img: "img/blocjams_feature_img.png"
 thumbnail-path: "img/blocjams_thumbnail.png"
-short-description: At Bloc, I made Spotify clone to learn the ropes of frontend development.
+short-description: At Bloc, I made a Spotify clone to learn the ropes of frontend development.
 tags: [Git, HTML, CSS, JavaScript, jQuery]
 
 ---
