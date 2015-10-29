@@ -39,6 +39,10 @@ feature-img: "img/Iterative_Places205-GoogLeNet_6.jpg"
 
 ## Education
 
+#### Bloc Coding Bootcamp, August 2015 - October 2015
+
+Frontend Web Development Course
+
 #### Rochester Institute of Technology, Fall 2008 – Spring 2014
 
 B.S. in Game Design and Development
