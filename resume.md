@@ -8,7 +8,7 @@ feature-img: "img/Iterative_Places205-GoogLeNet_6.jpg"
 
 ## Contact
 <a href="mailto:{{ site.theme.email_address }}" title="{{ site.theme.str_email }}">
-  me [at] francisyuan.com
+  me [at] francisyuan [dot] com
 </a>
 
 ## Projects
@@ -23,27 +23,31 @@ feature-img: "img/Iterative_Places205-GoogLeNet_6.jpg"
 
 #### Languages
 - JavaScript (ES5, ES6)
-- CSS
-- C++
+- C++11
 - C#
 
 #### Technologies
-- ReactJS
+- React
 - Flux
+- HTML5
+- CSS
 - git
 - npm
-- gulp
+- Gulp
 - Trello
-- HTML5
 - jQuery
 
 ## Education
 
-#### Bloc Coding Bootcamp, August 2015 - October 2015
+#### Bloc Coding Bootcamp
+
+_August 2015 to October 2015_
 
 Frontend Web Development Course
 
-#### Rochester Institute of Technology, Fall 2008 – Spring 2014
+#### Rochester Institute of Technology
+
+_Fall 2008 to Spring 2014_
 
 B.S. in Game Design and Development
 
@@ -52,15 +56,15 @@ B.S. in Game Design and Development
 
 _UI Programmer, November 2012 to January 2013_
 
-Development work on Terrachanics, an iOS/mobile puzzle game for the Department of Energy
+Developed Terrachanics, an iOS/mobile puzzle game for the Department of Energy
 
-- Developed in Unity with Unityscript and C#
+- Made in Unity with Unityscript and C#
 - Implemented GUI according to mockups from a design document
 - Integrated art assets into the UI
 
-#### RIT Lab for Technological Literacy
+#### RIT MAGIC Center
 
-_Game Designer and Researcher, June 2012 - August 2012_
+_Game Designer and Researcher, June 2012 to August 2012_
 
 Designed an MMORPG which used Free and Open Source Software metrics as a core gameplay mechanic
 

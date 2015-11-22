@@ -9,7 +9,7 @@ tags: [Git, HTML, CSS, gulp, npm, JavaScript, React, Redux, Pixi, Mocha, ES6]
 
 ---
 ## Summary
-Sentrii is a quick, visual reference to "warding" in the game [Dota 2](http://blog.dota2.com/). Unlike [BlocChat]({{ site.baseurl }}/projects/blocchat.html) or [BlocJams]({{ site.baseurl }}/projects/blocjams.html), Sentrii is an original concept. In addition to designing and authoring the content myself, I experimented with new technologies including [Redux](http://rackt.org/redux/), an alternative to [Flux](https://facebook.github.io/flux/), the testing framework [Mocha](https://mochajs.org/), and [Pixi.js](http://www.pixijs.com/), a 2D WebGL renderer library.
+Sentrii is a visual reference to "warding" in the game [Dota 2](http://blog.dota2.com/). Unlike [BlocChat]({{ site.baseurl }}/projects/blocchat.html) or [BlocJams]({{ site.baseurl }}/projects/blocjams.html), Sentrii is an original concept. In addition to designing and authoring the content myself, I explored with new technologies including [Redux](http://rackt.org/redux/), an alternative to [Flux](https://facebook.github.io/flux/), the testing framework [Mocha](https://mochajs.org/), and [Pixi](http://www.pixijs.com/), a 2D WebGL renderer library.
 
 [View Site](http://kusera.github.io/sentrii/)
 
@@ -23,7 +23,7 @@ Dota 2 is a popular multiplayer game with hundreds of thousands of unique player
 
 Ward guides do exist, but [some are out of date](http://www.team-dignitas.net/articles/blogs/dota/1092/dota-2-ultimate-guide-to-warding), [some lack any  context](https://www.reddit.com/r/DotA2/comments/3gwofx/updated_warding_map_on_current_minimap/), and [some are too cluttered](https://steamcommunity.com/sharedfiles/filedetails/?id=358789918). Not that these resources aren't valuable, but most of them are texts meant to be studied. It's difficult to refer to them in the middle of a game.
 
-So, Sentrii: An interactive, lightweight warding resource players could use on the fly. As a personal twist, I added information that I feel is valuable for support players, but isn't closely associated with warding and tends to be hidden away elsewhere, in wikis or videos or posts on Reddit.
+So, Sentrii: an interactive, lightweight warding resource players could use on the fly. As a personal twist, I added information that I feel is valuable for support players, but isn't closely associated with warding and tends to be hidden away elsewhere, in wikis or videos or posts on Reddit.
 
 ## Design
 I started Sentrii by creating some wireframes. Throughout the process I used feedback from my mentor and a close friend, also a Dota player, to guide my designs.
@@ -55,8 +55,8 @@ Learning ES6 was a greater success. I am really grateful for the existence of `l
 ## Unit tests
 I knew, through osmosis, the importance of unit testing in development, but I had no firsthand experience, so I tried my hand at writing unit tests for Sentrii with Mocha, Chai and Sinon. The tests were successful, and I could see how testing might drive development, but with only a few unit tests I sensed that writing a full testing suite for Sentrii would take as long as writing Sentrii itself. I will attempt unit testing again in the future, once I'm finished with Bloc and its time constraints.
 
-## PixiJS
-With PixiJS, I actually felt right at home. I have worked in OpenGL, DirectX, Flash and Unity, so I was no stranger to either low level or high level graphics programming. Sentrii wasn't graphically intensive, but I could see myself authoring games in PixiJS. My 'MapNodes.js' file was particularly nostalgic. I created a base class called `MapNode`, extending `Pixi.Graphics`. `MapNode` was then extended into further classes like `WardNode` and `BoxNode`. I also took full advantage of rest/spread to cut down on redundant code.
+## Pixi
+With Pixi, I actually felt right at home. I have worked in OpenGL, DirectX, Flash and Unity, so I was no stranger to either low level or high level graphics programming. Sentrii wasn't graphically intensive, but I could see myself authoring games in PixiJS. My `MapNodes.js` file was particularly nostalgic. I created a base class called `MapNode`, extending `Pixi.Graphics`. `MapNode` was then extended into further classes like `WardNode` and `BoxNode`. I also took full advantage of the rest/spread operator to cut down on redundant code.
 
 ```javaScript
 // MapNode.js
@@ -78,7 +78,7 @@ export class WardNode extends MapNode {
 // Elsewhere
 newNode = new WardNode(attributes.color, point.id, point.x, point.y, handleClick);
 ```
-In my initial design of the `MapNode` class, I was planning to use overloaded constructors, something that turned out to be impossible in native Javascript because it's weakly typed. In hindsight, it wouldn't have worked anyway and inheritance was the right choice, but I'm glad to have confronted the issue anyway. I believe it gave me a deeper appreciation of JavaScript and C++ both.
+In my initial design of the `MapNode` class, I was planning to use overloaded constructors, something that turned out to be impossible in native Javascript because it's weakly typed. In hindsight, it wouldn't have worked, and inheritance was the right choice, but I'm glad to have confronted the issue. I believe it gave me a deeper appreciation of both JavaScript and C++.
 
 ## Conclusion
 In truth, Sentrii did not progress as far in 3 weeks as I would have liked. I spent a lot of time learning about Redux, about ES6, and about tests. I also fiddled with using `npm` as a build tool over `gulp`, before Windows defeated me with its obstinate approach to paths. On top of it all, Sentrii as a site is not complete unless it actually conveys meaningful information, which meant a lot of time playing Dota 2 to extract the information I needed. There were more features planned for the time frame I set for Sentrii, features I cut completely. I suppose this is an unavoidable part of development, but I still feel a little disappointed.
